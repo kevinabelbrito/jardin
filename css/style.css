@@ -1,0 +1,244 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+
+header{
+    text-align: center;
+}
+
+.menu{
+    float: left;
+    width: 20%;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    transition: all 0.5s;
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu a span{
+    margin-left: 2.5em;
+}
+
+.identificarse{
+    background-image: url(../img/identificarse.png);
+}
+
+.administrar{
+    background-image: url(../img/administrar.png);
+}
+
+.aulas{
+    background-image: url(../img/aulas.png);
+}
+
+.inscripcion{
+    background-image: url(../img/inscripcion.jpg);
+}
+
+.busqueda{
+    background-image: url(../img/busqueda.jpg);
+}
+
+.reportes{
+    background-image: url(../img/reportes.png);
+}
+
+.write{
+    background-image: url(../img/write.png);
+}
+
+.key{
+    background-image: url(../img/key.png);
+}
+
+.salir{
+    background-image: url(../img/salir.png);
+}
+
+.container{
+    float: left;
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header, .footer{
+    width: 100%;
+    height: 70px;
+}
+
+table{
+    margin: auto;
+    width: auto;
+}
+
+.form-content{
+    padding: 1em;
+}
+
+.form-content td{
+    padding: 0.5em 0.2em;
+}
+
+.form-content .title{
+    font-family: 'Oswald', sans-serif;
+    padding: 2em 0;
+    border: 2px solid #000;
+}
+
+.form-content .title h2{
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+.form-content .title h3{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.form-content label{
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-content input, textarea, select{
+    padding: 0.2em;
+    font-weight: 500;
+    border: 1px double #000;
+}
+
+.form-content button{
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+.transparente{
+    background-color: none;
+    padding: 0.5em;
+    text-decoration: none;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    border-radius: 0.4em;
+}
+
+.transparente span{
+    margin-left: 2em;
+}
+
+.aceptar{
+    background-image: url(../img/aceptar.png);
+}
+
+.cancelar{
+    background-image: url(../img/cancelar.png);
+}
+
+.buscar{
+    background-image: url(../img/busqueda.jpg);
+}
+
+label.error{
+    font-size: 1.2em;
+    font-weight: 700;
+    color:firebrick;
+    display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.list{
+    margin-top: 2em;
+    background-color: aliceblue;
+}
+
+.list td, th{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.list th{
+    background-color: gainsboro;
+}
+
+.options{
+    margin: 1em auto;
+    padding: 1em;
+    width: auto;
+    text-align: center;
+}
+
+.options a{
+    transition: all 0.5s;
+    margin: 0.2em;
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: azure;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: black;
+    border-radius: 0.4em;
+}
+
+.options a:hover{
+    background-color: #c7e4fd;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.admin{
+    background-image: url(../img/admin.png);
+}
+
+.alumno{
+    background-image: url(../img/alumno.png);
+}
+
+.imprimir{
+    background-image: url(../img/imprimir.png);
+}
+
+.exit{
+    background-image: url(../img/exit.png);
+}
+
+.options a span{
+    margin-left: 1.5em;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -2000;
+}
